@@ -1,0 +1,201 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+} */
+  .content .title-actds{
+    font-size: 4em; 
+    font-weight: bold; 
+    max-width: 100%;
+    text-align: center;
+    /* line-height: 1.6em; */
+    align-items: center;
+    margin-top: 6vh;
+    margin-left: 10vh;
+    
+  
+   letter-spacing: 1vh; 
+    font-family: "Racing Sans One", sans-serif;
+    
+   border: 2px solid white;
+   padding-top: 2vh;
+   /*height: 10vh;*/
+   /* width: 30vh; */
+}
+.title-actds {
+  animation: ejemplo 1s forwards;
+}
+
+
+.wrapper-actds {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	flex-wrap: wrap;
+	margin-left: 5vh;
+}
+.card-actds {
+	max-width: 100%;
+	width: 100%;
+	height: 50vh;
+	background: #fff;
+	display: flex;
+	align-items: flex-end;
+	/* padding: 2rem 1rem; */
+	position: relative;
+	
+	margin: 30px 10px;
+	transition: 0.5s all ease-in-out;
+}
+.card-actds:hover {
+	transform: translateY(-10px);
+}
+.card-actds::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+ background: linear-gradient(to bottom, rgba(13, 36, 63, 0.3), rgba(13, 36, 63, 1)); 
+	z-index: 2;
+	opacity: 0;
+	transition: 0.5s all;
+}
+.card-actds:hover::before {
+	opacity: 1;
+}
+
+.card-actds img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.card-actds .info {
+	position: relative;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 3vh;
+	z-index: 3;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s all;
+	
+	text-align: justify;
+	padding-bottom: 5vh;
+	width: 90%;
+}
+.card-actds:hover .info {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.card-actds .info h1 {
+	line-height: 40px;
+	margin-bottom: 3vh;
+}
+.card .info p {
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 15vh;
+}
+.card-actds .info .btn {
+	background: #fff;
+	padding: 0.5rem 1rem;
+	color: #000;
+	font-size: 22px;
+	cursor: pointer;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: .4s ease-in-out;
+	
+	margin-top: 2vh;
+	float: right;
+}
+.card-actds .info .btn:hover {
+	background: #fc5185;
+	color: #fff;
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- */
+ @media screen and (max-width: 767px) {
+     
+
+   
+  .content   .title-actds{
+    margin-top: 15vh;
+    margin-left: 14vh;
+    
+   font-size: 50px;
+   border: 2px solid white;
+   
+   width: 55vw;
+   padding-top: 2vh;
+   /*height: 28vh;*/
+}
+
+
+.wrapper-actds {
+	margin-left: 0;
+	width: 100%;
+}
+
+.card-actds .info {
+	font-size: 9px;
+	padding-left: 3vh;
+	
+	padding-bottom: 6vh;
+	width: 90%;
+}
+
+.card-actds .info h1 {
+	line-height: 40px;
+	margin-bottom: 2vh;
+}
+.card .info p {
+	font-size: 3px;
+	/* letter-spacing: 1px; */
+	margin-bottom: 2vh;
+}
+
+.card-actds .info .btn {
+	margin-top: 2vh;
+	font-size: 8px;
+	float: right;
+}
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
