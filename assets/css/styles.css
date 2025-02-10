@@ -1193,7 +1193,7 @@ color: red;
 }
 
 .nav__menu { 
-    margin-top: 10px;
+    margin-top: 0px;
   }
 /* ===== logo ===== */
 /* .logo {
@@ -1206,7 +1206,7 @@ color: red;
   width: 43px;
   height: 40px;
   margin-left: 3vw ;
-  margin-top: 23px;
+  margin-top: 15px;
 }
 .ins-log{
     margin-top: 10px;
@@ -1291,7 +1291,7 @@ color: red;
     /*margin-left: 1vh; */
     max-width: 110%;
     letter-spacing: 0.7vh;
-    font-size: 37px;
+    font-size: 32px;
     border: 2px solid white;
    
    width: 54vh;
