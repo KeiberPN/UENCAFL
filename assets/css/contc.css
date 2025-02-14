@@ -419,4 +419,13 @@
     text-align: center;
   }
 
+  .input-box > i {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 20px;
+    color:rgba(255 255 255 / .3);
+    transition: .3s;
+}
+
 }

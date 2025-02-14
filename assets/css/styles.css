@@ -340,10 +340,10 @@ a {
 
 .slider .list .item .content{
     position: absolute;
-    top: 22%;
+    top: 34%;  /*22%*/
     width: 80%;
     /* max-width: 110%;  */
-    padding-left: 90%;  
+    padding-left: 100%;  
    
     font-size: 25px;
     transform: translateX(-50%);
@@ -364,7 +364,7 @@ a {
     font-weight: bold; 
     max-width: 100%;
     text-align: center;
-    line-height: 1em;
+    line-height: 1.6em;
     align-items: center;
     margin-top: 6vh;
     /*margin-left: 1vh;*/
@@ -1288,7 +1288,7 @@ color: red;
 
   .content .title-solo{
     margin-top: 20vh;
-    /*margin-left: 1vh; */
+    margin-left: 9%; 
     max-width: 110%;
     letter-spacing: 0.7vh;
     font-size: 32px;

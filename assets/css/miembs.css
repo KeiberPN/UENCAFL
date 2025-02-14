@@ -26,8 +26,8 @@ body {
     text-align: center;
     line-height: 1.6em;
     align-items: center;
-    margin-top: 6vh;
-    margin-left: 2vh;
+    margin-top: 0;
+    /*margin-left: 2vh;*/
     
   
    letter-spacing: 0.9vh;
@@ -80,8 +80,8 @@ body {
 #org{
     background-color: #2b43ff;
     margin: auto;
-    margin-top: 30px;
-    width: 55vw;
+    margin-top: 50px;
+    width: 100%;
     height: 109%;
     max-width: 100%;
 }
@@ -144,7 +144,7 @@ body {
 
 .card-pers .content-pers .img img {
   position: relative;
-  width: 200px;
+  min-width: 200px !important;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
@@ -350,13 +350,13 @@ body {
 
   .card-pers .content-pers .nomb-title {
       /* float: right; */
-    margin-left: 12vh;
-    margin-top: 3vh;
+    margin-left: 40px;
+    margin-top: 0;
     /* margin-right: 13vh; */
     text-align: left; 
     font-size: 28px;
    
-    width: 20vh;
+    width: auto;
     /* background-color: red; */
     display: flex;
     flex-direction: column-reverse;
@@ -381,6 +381,22 @@ body {
     margin: auto;
     padding-right: 20px;
     padding-left: 90px;
+    display: inline;
+  }
+
+  .card-pers .content-pers .img{
+  	margin-bottom: 0;
+  	height: 70%;
+  	display: inline-flex;
+  	max-width: 100%;
+  }
+
+  .card-pers .content-pers span{
+  	width: 450px;
+  }
+
+  .card-pers{
+  	height: 400px;
   }
 
 
