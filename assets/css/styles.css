@@ -56,6 +56,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 ul {
@@ -569,7 +570,7 @@ a {
  width: 100%;
  max-width: 100%;
  margin: auto;
- padding: 14px;
+ /*padding: 14px;*/
  margin-top: 20px;
  text-align: center;
  color: #7a7a7a;
@@ -1246,8 +1247,10 @@ color: red;
 .slider .list .item .content{
     
     top: 25%;
-    width: 155vw;
-    padding-left: 80%;  
+    width: 94%;
+    /*padding-left: 80%;  */
+    padding-left: 0;
+    left: 50%;
     font-size: 10px;
     box-sizing: border-box;
     
@@ -1288,13 +1291,13 @@ color: red;
 
   .content .title-solo{
     margin-top: 20vh;
-    margin-left: 9%; 
+    /*margin-left: 9%; */
     max-width: 110%;
     letter-spacing: 0.7vh;
     font-size: 32px;
     border: 2px solid white;
    
-   width: 54vh;
+   width: 100%;
    padding-top: 5vh;
    height: 17vh;
 }
@@ -1335,13 +1338,13 @@ color: red;
 
 .title-cards{
  /*margin-left: 5px; */
- margin-top: 370px;
+ margin-top: 290px;
  width: 100%;
     max-width: 100% ;
 
 }
 .title-valrs{
-    margin-left: 5px; 
+    /*margin-left: 5px; */
     width: 100%;
     max-width: 100% ;
 }
@@ -1390,6 +1393,8 @@ color: red;
  .p1{
     font-size: 15px;
     margin: 0px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 .pp{
     font-size: 4px;
@@ -1422,7 +1427,8 @@ color: red;
 /* comentarios */
 .comt{
     padding: 0px;
-    margin-left: 23px;
+    /*margin-left: 23px;*/
+    padding: 7px; 
     width: 100%;
 }
 

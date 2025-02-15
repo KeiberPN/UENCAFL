@@ -281,10 +281,10 @@
     max-width: 160%;
     letter-spacing: 0.8vh;
     
-   font-size: 34px;
+   font-size: 30px;
    border: 2px solid white;
    
-   width: 53vh;
+   width: 100%;
    padding: 3vh;
    height: 15vh;
 }
@@ -293,11 +293,11 @@
          
         height: 63em;
         display: flex;
-        width: 59.7vh;
+        /*width: 59.7vh;*/
         flex-direction: column;
         gap:20px; 
         max-width: 130%;
-        margin-left: -25px;
+        /*margin-left: -25px;*/
     }
     
 .box-info {
@@ -337,13 +337,13 @@
 } */
 
 .input-box > textarea {
-    width: 51.8vh;
+    width: 100%;
     
 }
 
 .form-contc > button {
-    width: 51.8vh;
-    margin-left: 7px;
+    width: 100%;
+    /*margin-left: 7px;*/
     
 }
 
@@ -357,7 +357,7 @@
 /* ====================== */
 /* slider-contc */
 .slider-contc {
-  width: 58.6vh;
+  width: auto;
   margin-left: -3vh;
   margin-top: 5px;
   height: 40px;
@@ -411,8 +411,9 @@
   }
 
   .title-cards{
-    width: 99%;
+    /*width: 99%;*/
     margin: 0;
+    margin-top: 50px;
   }
 
   .box-info > h1 {

@@ -250,13 +250,13 @@ body {
 
 .content .title-miembs{
     margin-top: 20vh;
-    margin-left: 5vh; 
+    /*margin-left: 5vh;*/ 
     
     letter-spacing: 0.8vh;
     font-size: 34px;
     border: 2px solid white;
    
-   width: 53vh;
+   width: 100%;
    padding: 3vh;
    height: 17vh;
 }
@@ -277,7 +277,7 @@ body {
 
 #org{
     margin-top: 20px;
-    width: 80vw;
+    /*width: 80vw;*/
     max-width: 100%;
 }
 

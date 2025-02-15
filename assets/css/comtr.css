@@ -51,7 +51,7 @@
   position: relative;
   display: block;
   text-align: left;
-  width: 100%;
+  width: 90%;
   padding: 1em 0;
   color: #7288a2;
   font-size: 1.15rem;
@@ -137,7 +137,7 @@
 }
 
 .comt{
-    margin-left: 2vh;
+    /*margin-left: 2vh;*/
 }
 
 
@@ -148,12 +148,12 @@
      
       .content   .title-cmt{
     margin-top: 20vh;
-    margin-left: 0.7vh;
+    margin-left: -3px;
     max-width: 160%;
    font-size: 30px;
    border: 2px solid white;
    
-   width: 54vh;
+   width: 100%;
    padding-top: 5vh;
    height: 15vh;
    
@@ -179,7 +179,7 @@
 }
 
  .comt{
-    margin-left: 3vh;
+    /*margin-left: 3vh;*/
 }
 
  pre{

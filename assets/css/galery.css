@@ -18,8 +18,8 @@
     line-height: 1.6em;
     align-items: center;
     margin-top: 6vh;
-    margin-left: 6vh;
-    
+    /*margin-left: 6vh;
+    */
   
    letter-spacing: 1.7vh;
     font-family: "Racing Sans One", sans-serif;
@@ -133,16 +133,16 @@ h1 span{
 /* Para dispositivos Android */
 
   /* slider section  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     
     .content .title-galr{
     margin-top: 18vh;
-    margin-left: 5vh; 
+    /*margin-left: 5vh;*/ 
     
    font-size: 40px;
    border: 2px solid white;
    
-   width: 50vh;
+   width: 100%;
    padding: 2vh;
    height: 17vh;
 }
